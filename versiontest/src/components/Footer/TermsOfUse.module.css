@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gideon+Roman&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080b11;
+  padding: 1rem;
+  width: 100vw;
+  /* position: fixed; */
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  margin: 0px 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  /* font-style: italic; */
+  font-weight: bold;
+}
+
+.link:hover {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  margin: 16px 0;
+  font-size: 1.8rem;
+  color: #ff6666;
+}
+
+.introPara {
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Gideon Roman", cursive;
+}
+
+.introPara::first-letter {
+  font-size: 1.2rem;
+}
+
+.title2 {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+}
+
+.para {
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Gideon Roman", cursive;
+  margin: 0;
+}
+
+.specialTitle {
+  padding: 0.9rem;
+  font-size: 1.8rem;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  color: rgb(34, 32, 32);
+  font-style: italic;
+}

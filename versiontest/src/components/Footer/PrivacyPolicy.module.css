@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gideon+Roman&display=swap");
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080b11;
+  padding: 1rem;
+  width: 100vw;
+  /* position: fixed; */
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  margin: 0px 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  /* font-style: italic; */
+  font-weight: bold;
+}
+
+.link:hover {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.title2 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
+}
+
+.para{
+    padding: 2rem;
+  font-size: 1.4rem;
+  font-family: "Gideon Roman", cursive;
+  margin: 0;
+}
+
+.para::first-letter {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }

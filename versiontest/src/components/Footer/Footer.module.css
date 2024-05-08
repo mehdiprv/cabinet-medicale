@@ -1,0 +1,52 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: #ccc;
+    height: 8vh;
+  }
+  
+  .box{
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+    color: #ccc;
+    background-color: black;
+    height: 8vh;
+}
+
+.link{
+    text-decoration: none;
+    
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 16px;
+}
+
+.link:hover{
+    color:white;
+    cursor: pointer;
+}
+
+@media(max-width:40rem){
+    .container{
+        padding: 1rem;
+        position: relative;
+        /* bottom:20px; */
+        font-size:0.7rem;
+        top:6px;
+    }
+    
+    .link{
+        position: relative;
+        bottom:8px;
+    }
+}

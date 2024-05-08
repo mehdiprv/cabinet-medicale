@@ -1,0 +1,109 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  background: #fff; /* Remplacez par la couleur de fond souhaitée */
+  color: var(--color);
+  letter-spacing: 1px;
+  transition: background 0.2s ease;
+  height: 100px;
+  /* background-color: blue;*/
+}
+
+a {
+  text-decoration: none;
+  color: var(--color);
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+.success-message {
+  color: green;  /* Set the desired color for success messages */
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  position: relative;
+  
+}
+
+.form-container {
+  border: 1px solid hsla(0, 0%, 65%, 0.158);
+  box-shadow: 0 0 36px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  z-index: 99;
+  padding: 2rem;
+}
+
+.login-container form input[type="text"],
+.login-container form input[type="email"],
+.login-container form input[type="password"] {
+  display: block;
+  padding: 13px; /* Adjust padding as needed */
+  width: calc(100% - 26px); /* Calculate width to include padding */
+  margin: 1rem 0; /* Adjust margin if necessary */
+  color: var(--color);
+  outline: none;
+  background-color: rgba(145, 145, 145, 0.12);
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+  font-size: 15px;
+  backdrop-filter: blur(15px);
+}
+
+.login-container form input:focus {
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.2);
+  animation: wobble 0.3s ease-in;
+}
+
+
+
+.login-container form button {
+  background-color: var(--primary-color);
+  color: var(--color);
+  display: inline-block; /* Make the button inline-block for centering */
+  padding: 12px 20px; /* Adjust padding as needed for height and width */
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px; /* Adjust font size for medium size */
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  border: none;
+  margin-top: 2rem; /* Adjust the top margin as needed */
+}
+
+.login-container form button:hover {
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}
+
+
+.circle {
+  width: 8rem;
+  height: 8rem;
+  background: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+}

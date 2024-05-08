@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #080b11;
+  padding: 1rem;
+  width: 100vw;
+  /* position: fixed; */
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  list-style: none;
+}
+
+.logo {
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  margin: 0px 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  /* font-style: italic; */
+  font-weight: bold;
+}
+
+.link:hover {
+  color: white;
+}
+
+.text{
+  font-size: 1rem;
+  font-family: 'Inconsolata',sans-serif;
+  width: 30vw;
+  position: relative;
+  /* left:20px; */
+  top:150px;
+  text-align: center;
+}
+
+.supportBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  padding: 4.5rem;
+  /* width: 50vw; */
+  position: relative;
+  top:160px;
+  left:10px;
+  border-radius: 8px;
+  border-color: #ccc;
+  border-width: 4px;
+  color:white;
+  background-color:black;
+}
+
+.input:hover{
+  background-color: rgb(255, 255, 255);
+  color:black
+}
+
+.validButton {
+  margin: 8px 0;
+  padding: 0.4rem;
+  background-color: #ccc;
+  cursor: pointer;
+  align-self: flex-end;
+  position: relative;
+  left:25px;
+  top:130px;
+  border-radius: 8px;
+}
+
+.invalidButton {
+  margin: 8px 0;
+  padding: 0.4rem;
+  /* align-self: flex-end; */
+  background-color: #ccc;
+  cursor: not-allowed;
+  position: relative;
+  left:25px;
+  top:130px;
+  border-radius: 8px;
+}
+
+.validButton:hover{
+  color:white;
+  background-color: black;
+}
+
+.errorPara{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:red;
+  font-weight: bold;
+  position: relative;
+  top:150px;
+}
+
+.succesPara{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:green;
+  font-weight: bold;
+  position: relative;
+  top:150px;
+}
+
+
+
+@media (max-width:40rem){
+  .text{
+    font-size: 0.8rem;
+    font-family: 'Inconsolata',sans-serif;
+    width: 30vw;
+    position: relative;
+    /* left:20px; */
+    top:150px;
+    text-align: center;
+  }
+  
+  .input{
+    padding: 2rem;
+    /* width: 50vw; */
+    position: relative;
+    top:170px;
+    left:10px;
+    border-radius: 8px;
+    border-color: #ccc;
+    border-width: 2px;
+    color:white;
+    background-color:black;
+  }
+
+  .validButton {
+    margin: 8px 0;
+    padding: 0.4rem;
+    background-color: #ccc;
+    cursor: pointer;
+    align-self: flex-end;
+    position: relative;
+    left:165px;
+    top:160px;
+    border-radius: 8px;
+  }
+  
+  .invalidButton {
+    margin: 8px 0;
+    padding: 0.4rem;
+    /* align-self: flex-end; */
+    background-color: #ccc;
+    cursor: not-allowed;
+    position: relative;
+    left:165px;
+    top:160px;
+    border-radius: 8px;
+  }
+}
